@@ -5,7 +5,17 @@
 
 int main(int argc, char **argv) {
 	if (argc < 3) {
-		printf("[erro] Foram passados menos argumentos do que o necessário.\n");
+		perror("[erro] Foram passados menos argumentos do que o necessário.\n");
+		exit(EXIT_FAILURE);
+	}
+
+	if (freopen(argv[1], "r", stdin) == NULL) {
+		perror("[erro] freopen falhou ao abrir o arquivo de input");
+		exit(EXIT_FAILURE);
+	}
+
+	if (freopen(argv[2], "w", stdout) == NULL) {
+		perror("[erro] freopen falhou ao abrir o arquivo de output");
 		exit(EXIT_FAILURE);
 	}
 
@@ -23,6 +33,9 @@ int main(int argc, char **argv) {
 	}
 
 	imprimeMatriz(base);
+
+	putchar('\n');
+	printf("A matriz com filtro de suavização eh:\n");
 
 	tMatriz *suavizada = suavizaMatriz(base);
 	imprimeMatriz(suavizada);

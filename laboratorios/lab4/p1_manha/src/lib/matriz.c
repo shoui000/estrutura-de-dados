@@ -42,7 +42,7 @@ tMatriz *suavizaMatriz(tMatriz *m) {
 
 	suavizada->data = malloc(linhas * sizeof(int *));
 	
-	int *linha, soma, contador;
+	int *linha, soma;
 	for (int i = 0; i < linhas; i++) {
 		 linha = calloc(colunas, sizeof(int));
 
@@ -65,7 +65,7 @@ tMatriz *suavizaMatriz(tMatriz *m) {
 		 suavizada->data[i] = linha;
 	}
 
-	return m;
+	return suavizada;
 }
 
 void imprimeMatriz(tMatriz *m) {
