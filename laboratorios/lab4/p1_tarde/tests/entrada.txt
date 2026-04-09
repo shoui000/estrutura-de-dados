@@ -1,0 +1,10 @@
+4 5
+Estrutura de Dados Ciencia Computacao
+Engenharia Ufes terceiro periodo fatorial
+Eletrica Estatistica Matrizes Dinamicas exemplos
+Material para prova vetores ponteiros
+Estrutura
+Ciencia
+Matrizes
+aleatorio
+0

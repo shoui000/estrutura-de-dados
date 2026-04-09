@@ -1,0 +1,19 @@
+Estrutura de Dados Ciencia Computacao 
+Engenharia Ufes terceiro periodo fatorial 
+Eletrica Estatistica Matrizes Dinamicas exemplos 
+Material para prova vetores ponteiros 
+
+============================
+==> Digite a palavra para o caça-palavras ou 0, caso queira sair:
+Palavra encontrada na posicao [0][0] :)!
+
+==> Digite a palavra para o caça-palavras ou 0, caso queira sair:
+Palavra encontrada na posicao [0][3] :)!
+
+==> Digite a palavra para o caça-palavras ou 0, caso queira sair:
+Palavra encontrada na posicao [2][2] :)!
+
+==> Digite a palavra para o caça-palavras ou 0, caso queira sair:
+Palavra não encontrada... :(
+
+==> Digite a palavra para o caça-palavras ou 0, caso queira sair:
