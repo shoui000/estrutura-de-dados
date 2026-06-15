@@ -1,0 +1,8 @@
+====== RELATÓRIO ======
+Árvore vazia? Não
+Teste da Silva pertence à Árvore? Sim com 1 ocorrências
+Quantidade de folhas: 2
+Altura da Árvore: 2
+Árvore:
+< {Jorge Alberto 123123 7.80} < {Maria Jorgina 67987 9.00} <> <> > < {Teste da Silva 787878 5.10} <> <> > >
+====== RELATÓRIO ======
