@@ -1,0 +1,8 @@
+Arvore:
+<A<D<I><H>><C<G<J>>><B<F><E>>>
+
+Altura: 3
+Folhas: 5
+
+Digite um aluno para buscar:
+Item encontrado na arvore.
